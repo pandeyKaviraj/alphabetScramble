@@ -9,8 +9,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    let people = ["Ganga", "Muku", "Sonu", "Bhopal", "Ganesh"]
     var body: some View {
-        Text("Hello, World!")
+        if let fileURL = Bundle.main.url(forResource: "some-file", withExtension: "txt") {
+            if let fileContents = try? String(contentsOf: fileURL) {
+                // Loaded the file into a string
+            }
+            
+        }
+        return Text("Hello World")
     }
 }
 
