@@ -9,14 +9,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    let people = ["Ganga", "Muku", "Sonu", "Bhopal", "Ganesh"]
+    
     var body: some View {
-        if let fileURL = Bundle.main.url(forResource: "some-file", withExtension: "txt") {
-            if let fileContents = try? String(contentsOf: fileURL) {
-                // Loaded the file into a string
-            }
-            
-        }
+        let word = "swift"
+        let checker = UITextChecker()
+        let range = NSRange(location: 0, length: word.utf16.count)
+        let misspelledRange = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: "en")
+        let allGood = misspelledRange.location == NSNotFound
+        
         return Text("Hello World")
     }
 }
