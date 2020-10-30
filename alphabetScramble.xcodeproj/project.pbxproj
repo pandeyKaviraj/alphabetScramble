@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FCF1274254BDDC8008108E9 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5FCF1273254BDDC8008108E9 /* start.txt */; };
 		5FF0F9EA254693B300FAC45D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0F9E9254693B300FAC45D /* AppDelegate.swift */; };
 		5FF0F9EC254693B300FAC45D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0F9EB254693B300FAC45D /* SceneDelegate.swift */; };
 		5FF0F9EE254693B300FAC45D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0F9ED254693B300FAC45D /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FCF1273254BDDC8008108E9 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		5FF0F9E6254693B300FAC45D /* alphabetScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alphabetScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF0F9E9254693B300FAC45D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FF0F9EB254693B300FAC45D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				5FF0F9EF254693B900FAC45D /* Assets.xcassets */,
 				5FF0F9F4254693B900FAC45D /* LaunchScreen.storyboard */,
 				5FF0F9F7254693B900FAC45D /* Info.plist */,
+				5FCF1273254BDDC8008108E9 /* start.txt */,
 				5FF0F9F1254693B900FAC45D /* Preview Content */,
 			);
 			path = alphabetScramble;
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FF0F9F6254693B900FAC45D /* LaunchScreen.storyboard in Resources */,
+				5FCF1274254BDDC8008108E9 /* start.txt in Resources */,
 				5FF0F9F3254693B900FAC45D /* Preview Assets.xcassets in Resources */,
 				5FF0F9F0254693B900FAC45D /* Assets.xcassets in Resources */,
 			);
